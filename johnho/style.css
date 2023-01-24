@@ -1,0 +1,51 @@
+.bdy {
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 25px;
+    background-color: #2C3333; 
+    color: rgb(255, 255, 255);
+  }
+  
+  .hdr {
+    font-weight: bold; 
+    background-color: #395B64;
+    padding: 30px; 
+    color: rgb(255, 255, 255);
+  }
+  
+  .para {
+    font-size: 20px;
+  }
+
+  a {
+  
+    color: #A5C9CA;
+    text-decoration: none;
+    
+  }
+  
+  
+  a:visited {
+    color: #A5C9CA;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #E7F6F2;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: #A5C9CA;
+    text-decoration: none;
+  } 
+
+  div.container {
+    text-align: left;
+    padding-left: 30%;
+  }
+  
+  ol.myOL {
+    display: inline-block;
+    text-align: left;
+  }

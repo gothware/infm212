@@ -1,0 +1,13 @@
+p {
+    color: red;
+    }
+    .example {
+    color: blue;
+    }
+    .example.example-2 {
+    color: magenta;
+    /* negated by next rule */
+    }
+    .example.example-2 {
+    color: green;
+    }
