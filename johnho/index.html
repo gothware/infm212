@@ -4,53 +4,57 @@
 <head>
     <title> John's Landing Page </title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 
 <body class="bdy">
 
-    <header  class="hdr">
-        <img style="border-radius: 50%;" src="img/pic.jpg" width="400" alt="Landscape" />
-
-        <h3>John Horne</h3>
-        <p>I am a senior IST major at Mercer University who enjoys coding.</p> <br>
+    <header class="hdr">
+        <div class="profile">
+            <img style="border-radius: 50%;" src="img/pic.jpg" width="200" alt="Landscape" />
+        </div>
+        
+        <div class="title">
+            <h3>John Horne</h3>
+            <p class = "para">I am a senior IST major at Mercer University who enjoys coding.</p>
+        </div>
+        
     </header>
-    <br><br>
-    
 
-   
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">Labs
+                <i class="material-icons" style="font-size: 13px;">arrow_drop_down</i>
+            </button>
+            <div class="dropdown-content">
+                <a href="family\mike.html"> Lab 1 - Family Site </a>
+                <a href="#">Lab 2 - Multimedia Components</a>
+                <a href="#">Lab 3 - Form</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Project
+                <i class="material-icons" style="font-size: 13px;">arrow_drop_down</i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">User/Task Analysis</a>
+                <a href="#">Site Design</a>
+                <a href="#">Website</a>
+            </div>
+        </div>
+        <a href="examples\BookExamples.html"> Book Examples </a>
+        
+    </div>
+
+    <br>
 
     <h3> Contact Info </h3>
     <p> Phone: 2299774022 </p>
-    <p> <a href= "mailto:horne2900@gmail.com"> Email: horne2900@gmail.com </a> </p>
+    <p> <a href="mailto:horne2900@gmail.com"> Email: horne2900@gmail.com </a> </p>
     <br>
 
-    <h3> Labs </h3>
-        <div class="container">
-            <ol class="myOL">
-                <li> <a href="family\mike.html"> Lab 1 - Family Site </a></li>
-                <li> Lab 2 - Multimedia Components </li>
-                <li> Lab 3 - Form </li>
-            </ol>
-        </div>
-        
-    <br>
-
-    <h3> <a href= "examples\BookExamples.html"> Book Examples </a> </h3> <br>
-
-    <h3> Final Org Project Code </h3>
-        <div class="container">
-            <ol class="myOL">
-                <li> User/Task Analysis </li>
-                <li> Site Design </li>
-                <li> Website </li>
-            </ol>
-        </div>
-   
-
-    <br>
-    <h3> Final Org Project WordPress </h3> <br>
-
-    <hr> &copy; Copyright All Reserved 2023
+    
 </body>
 
 </html>
