@@ -1,0 +1,47 @@
+.navbar-default {
+    border-color: #45754d;
+    border-left: white;
+    border-right: white;
+    border-width: 5px;
+    border-radius: 0;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.navbar-nav {
+    margin: 10px;
+    
+}
+.logo {
+    width: 250px;
+    transform: translate(-0%, -50%);
+}
+.body {
+    font-family: Segoe Script;
+    color: #45754d;
+}
+.div {
+    text-align: center;
+    
+
+}
+
+.mainImage {
+    width: 1000px; 
+    opacity: 0.5;
+    
+    border: 8px solid #45754d;
+    
+}
+
+.centered {
+    color: black;
+    font-weight: bold;
+    font-size: 39px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

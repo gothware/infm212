@@ -1,0 +1,16 @@
+
+    p {
+    background-color: #3c8f00; /* for IE
+    ➝ before IE9 */
+    background-color: hsl(95,100%,28%);
+    
+    }
+    /* 25% transparent */
+    .test-1 {
+    background-color:
+    ➝ hsla(95,100%,28%,.75);
+    }
+    /* 60% transparent */
+    .test-2 {
+    background-color: hsla(95,100%,28%,.4);
+    }

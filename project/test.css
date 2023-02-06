@@ -1,0 +1,33 @@
+.navbar {
+    border-color: #45754d;
+    border-left: white;
+    border-right: white;
+    border-width: 500px;
+    border-radius: 0;
+    padding-top: 150px;
+    padding-bottom: 0px;
+    height: 80px;
+    
+
+}
+.logo {
+    width: 240px;
+    margin: 0;
+    
+    transform: translateY(-40%);
+}
+.body {
+    font-family: Segoe Script;
+    color: #45754d;
+    font-size: 22px;
+}
+
+
+.mainImage {
+    width: 1000px; 
+    opacity: 0.5;
+    
+    border: 8px solid #45754d;
+    
+}
+
