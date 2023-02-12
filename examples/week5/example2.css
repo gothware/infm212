@@ -1,0 +1,13 @@
+body {
+    background-image: url(/examples/week5/img/sky.jpg);
+    background-repeat: repeat-x;
+    background-attachment: fixed; 
+    background-position: left bottom;
+    background-color: #000;
+    color: white;
+
+}
+
+html {
+    min-height: 100%;
+}

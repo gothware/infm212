@@ -1,0 +1,48 @@
+body {
+    font: 100% Geneva, Tahoma, Verdana,
+        ➝ sans-serif;
+}
+
+h1,
+h2 {
+    /* Can't combine these into
+    font shorthand unless you include
+    font size in the shorthand. */
+    font-family: "Gill Sans", "Gill Sans MT",
+        ➝ Calibri, sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2.1875em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+em,
+a:link,
+.intro .subhead {
+    font-weight: bold;
+}
+
+.intro {
+    line-height: 1.45;
+}
+
+.intro .subhead {
+    font-size: 1.125em;
+}
+
+.intro p {
+    font-size: 1.0625em;
+}
+
+.project p {
+    /* Can't combine these into
+    font shorthand unless you include
+    font family in the shorthand. */
+    font-size: .9375em;
+    line-height: 1.65;
+}

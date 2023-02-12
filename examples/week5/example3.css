@@ -1,0 +1,188 @@
+article,
+aside,
+figcaption,
+figure,
+footer,
+➝ header,
+main,
+nav,
+section {
+    display: block;
+}
+
+main {
+    width: 600px;
+    /* 62.5% = 600px/960px */
+}
+
+.sidebar {
+    width: 300px;
+    /* 31.25% = 300px/960px */
+}
+
+.about {
+    background-color: #2b2b2b;
+    padding: .3125em .625em .625em;
+}
+
+div {
+    /* containing block */
+    background: khaki;
+    /* tan */
+    width: 300px;
+}
+
+.nav-main a {
+    color: #292929;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125em;
+    /* 18px/16px */
+    font-weight: 700;
+    padding: .5em 1.15em .5em 1.4em;
+    text-transform: uppercase;
+}
+
+.about h2,
+.mod h2 {
+    font-size: 0.875em;
+}
+
+.about h2,
+.mod h2,
+.nav-main a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.mod h2 {
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 0.75em;
+}
+
+.nav-main {
+    /* green */
+    border-top: 5px solid #019443;
+    /* gray */
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.nav-main li {
+    border-left: 1px solid #c8c8c8;
+    display: inline-block;
+}
+
+.nav-main li:first-child {
+    border-left: none;
+}
+
+p,
+.second {
+    background: white;
+    border: 3px solid royalblue;
+    margin: 10px;
+    padding: 8px;
+}
+
+.second {
+    /* the second paragraph */
+    border-color: orangered;
+    width: 200px;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+small {
+    font-size: 80%;
+}
+
+img {
+    border: 0;
+}
+
+p {
+    display: inline;
+}
+
+em {
+    background: lightgreen;
+    display: inline-block;
+    width: 300px;
+}
+
+.social-sites li {
+    display: inline;
+}
+
+.nav-main li {
+    display: inline-block;
+}
+
+.nav-main a {
+    color: #292929;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer p {
+    font-size: .6875em;
+    /* 11px/16px */
+}
+
+.post-footer {
+    border-bottom: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    padding-bottom: .7em;
+    /* 7.7px/11px */
+    padding-top: .7em;
+}
+
+p {
+    border: 10px solid red;
+    padding: 15px;
+}
+
+.ddd {
+    border-width: 4px;
+    border-style: dotted dashed double;
+}
+
+.ridge {
+    border-style: ridge;
+    border-color: orange;
+}
+
+.groove {
+    border-style: groove;
+    border-color: purple;
+}
+
+.inset {
+    border-style: inset;
+    border-color: blue;
+}
+
+.outset {
+    border-style: outset;
+    border-color: green;
+}
