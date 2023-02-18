@@ -1,0 +1,35 @@
+.body {
+    background-color: #2e3440;
+    color: #d8dee9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    align-items: center;
+    padding-top: 20%;
+    
+}
+
+p {
+    padding: 0px;
+}
+
+input {
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #8fbcbb;
+    border-width: 5px;
+    background-color: #d8dee9;
+}
+
+button {
+    border-radius: 100px;
+    font-weight: 600;
+    color: #2e3440;
+    aspect-ratio: 1;
+    width: 100px;
+    border-style: solid;
+    border-color: #8fbcbb;
+    border-width: 10px;
+    background-color: #d8dee9;
+}
