@@ -1,31 +1,31 @@
 .navbar {
-
-
-
     font-size: 20px;
+    padding-left: 5px;
     color: #45754d;
     font-weight: bold;
-
-
 }
-
-
 
 .navbar-nav {
     margin: 10px;
     border-color: #45754d;
     border-left: white;
     border-right: white;
-    border-width: 5px;
+    border-width: 3px;
     border-radius: 0;
     border-style: inherit;
 }
 
-
-
 .logo {
     width: 200px;
     transform: translate(-0%, -40%);
+}
+
+.fa {
+
+    font-size: 30px;
+
+    text-align: center;
+    text-decoration: none;
 }
 
 a:link {
@@ -50,66 +50,93 @@ a:active {
 
 .body {
     font-family: Segoe Script;
-    color: #4f8857;
-    font-size: 18px;
-    font-weight:900;
+    color: #2e6635;
+    font-size: 16px;
+    font-weight: 900;
+    text-shadow: 0.5px 0 #4f8857;
+    
 }
 
 .row {
     padding: 25px;
-
-    
 }
 
 .colContent {
-    
-    
     border-width: 1px;
     border-radius: 25px;
-    border-style:outset;
-    
+    border-style: outset;
     border-color: #45754d;
     background-color: white;
     padding-top: 80px;
     padding-bottom: 80px;
-    width: 450px;
+    width: 400px;
     height: 200px;
 }
 
-.colProduct{
-    
-    
+.colProduct {
     border-width: 3px;
-    border-radius: 25px;
-    border-style:outset;
-    
+    border-radius: 20px;
+    border-style: outset;
     border-color: #45754d;
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 250px;
-    height: 250px;
+    height: 275px;
 }
 
 .mainImage {
     width: 1000px;
-    opacity: 0.5;
-
     border: 8px solid #45754d;
+}
+
+.headerImage {
+    height: 150px;
+}
+
+.centerHeaderImage {
+    background-image: url(../img/tea-leaf.png);
+    text-align: center;
+    height: 70px;
+    width: 170px;
+    padding-top: 8px;
+    background-color: #ffffff;
+
+    border-radius: 50px;
+    border-color: #3b6342;
+    border-width: 2px;
+    border-style: inset;
+    color: black;
+}
+
+.centerFooterImage {
+    height: 70px;
+    width: 150px;
+    padding-top: 8px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    border-radius: 50px;
+    border-color: #3b6342;
+    border-width: 2px;
+    border-style: inset;
+    text-align: center;
+    color: black;
+    font-weight: bold;
 
 }
 
-h1 {
+.bigFont {
     font-weight: 900;
+    font-size: 20px;
+    text-shadow: 1px 0 #4f8857;
 }
+
 
 .colProductImage {
     width: 200px;
     height: 150px;
-    
     border-radius: 20px;
     border: 2px solid #45754d;
-
 }
 
 .indiProductDesc {
@@ -121,19 +148,16 @@ h1 {
 .indiProductImage {
     width: 350px;
     height: 250px;
-    
     border-radius: 20px;
     border: 2px solid #45754d;
 
 }
 
-
 .cartQuantity {
-    
     text-align: center;
     padding-top: 5px;
     border-radius: 5px;
-    border: 2px solid #45754d;
+    border: 2px solid #3b6342;
     background: rgba(63, 107, 65, 0.2);
     width: 35px;
 }
@@ -150,31 +174,36 @@ h1 {
     height: 50px;
 }
 
+.teaSize {
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    border: 5px solid #5c8b64;
+    background: rgba(63, 107, 65, 0.8);
+    opacity: 0.5;
+    font-family: 'Times New Roman', Times, serif;
+    width: 80px;
+    height: 50px;
+}
+
 .indiProductText {
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
     width: 350px;
     height: 150px;
-    
-    
     border: 2px solid #7c7c7c;
-
 }
 
-
-
-
 .dropdown-menu {
-    
     margin: 0;
     list-style: none;
     white-space: nowrap;
     border: 1px solid black;
     padding: 10px;
     background-color: #ffffff;
-  }
+}
 
-.centered {
+.centerMainImage {
     text-align: center;
     color: black;
     font-weight: bold;
@@ -183,4 +212,254 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.clubPhoto {
+    text-align: center;
+    border-width: 1px;
+    border-radius: 25px;
+    border-style: outset;
+    border-color: #45754d;
+    background-color: white;
+    padding-top: 200px;
+    padding-bottom: 80px;
+    width: 400px;
+    height: 500px;
+}
+
+.clubDesc {
+    text-align: center;
+    border-width: 1px;
+    border-style: outset;
+    border-color: #45754d;
+    background-color: #99c2a0;
+    width: 350px;
+    height: 200px;
+}
+
+.clubSelect {
+    border-width: 1px;
+    border-style: outset;
+    border-color: #45754d;
+    background-color: #99c2a0;
+
+    width: 350px;
+}
+
+.clubAdd {
+    border-width: 1px;
+    border-style: outset;
+    border-color: #45754d;
+    background-color: #3f7a49;
+    font-size: 25px;
+    color: white;
+    height: 80px;
+    width: 350px;
+}
+
+.indiReview {
+    text-align: left;
+    width: 800px;
+    font-size: 20px;
+    border-width: 3px;
+    border-style: inset;
+    border-color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.caffeineLow {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3b6342;
+    opacity: 0.3;
+}
+
+.caffeineMed {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3b6342;
+    opacity: 0.8;
+}
+
+.caffeineHigh {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3b6342;
+    opacity: 1.0;
+}
+
+.giftCardMessage {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    width: 350px;
+    height: 150px;
+    border: 2px solid #497457;
+    background-color: #a1e6ad;
+}
+
+.giftCardDropdown {
+    width: 350px;
+    height: 50px;
+    background-color: #a1e6ad;
+}
+
+.giftCardForm {
+    width: 350px;
+    height: 50px;
+    background-color: #a1e6ad;
+}
+
+.verticalLine {
+    text-align: center;
+    align-items: center;
+    padding-left: 150px;
+    border-right: 3px;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    border-style:solid;
+    height: 700px;
+    width: 1px;
+}
+
+.orders {
+    width: 90%;
+    height: 90%;
+    padding-top: 2%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+    border:#2e6635;
+    border-style: solid;
+    padding-bottom: 350px;
+}
+
+.orderHr {
+    padding: 0;
+    
+    width: 922px;
+    margin: 0;
+    height: 3px;
+    border-top: #2e6635;
+    border-width: 5px;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    opacity: 1;
+    border-style: solid;
+}
+
+.indiOrder {
+    padding-top: 30px;
+    margin-bottom: 25px;
+    font-size: 22px;
+    border-width: 3px;
+    border-style: solid;
+    height: 100px;
+    background-color: #bde6c3;
+}
+
+.indiOrderControls {
+    padding-top: 5px;
+    
+    font-size: 22px;
+    border-width: 3px;
+    border-style: solid;
+    height: 50px;
+    background-color: #bde6c3;
+}
+
+.orderSummary {
+    text-align: center;
+    border-width: 1px;
+    
+    border-style: outset;
+    border-color: #45754d;
+    background-color: #b1d8b7;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    
+    width: 350px;
+    height: fit-content;
+}
+
+.checkout {
+    border-width: 1px;
+    border-style: outset;
+    border-color: #45754d;
+    background-color: #b1d8b7;
+    font-size: 25px;
+    color: rgb(78, 136, 90);
+    height: 80px;
+    width: 250px;
+}
+
+.checkoutFormBackground {
+    border-style: solid;
+    border-color: #45754d;
+    height:fit-content;
+    width: 100%;
+    padding: 10px;
+}
+
+.checkoutForm {
+    width: 100%;
+    height: 50px;
+    background-color: #b1d8b7;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.orderSummaryBackground {
+    text-align: center;
+    background-color:#b1d8b7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+
+  .paymentSummary {
+    text-align:left;
+    border-width: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: outset;
+    border-color: #45754d;
+    background-color: #b1d8b7;
+    
+    
+    width: 400px;
+    height: fit-content;
+}
+
+.footerBlocks {
+    text-align: left;
+    border-width: 1px;
+    
+    border-style: outset;
+    border-color: #45754d;
+    background-color: #b1d8b7;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    
+    width: 100%;
+    height: 350px;
+}
+
+.faqBlock {
+    text-align: left;
+    border-width: 1px;
+    
+    border-style: outset;
+    border-color: #45754d;
+    background-color: #b1d8b7;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    
+    width: 100%;
+    height: fit-content;
 }
