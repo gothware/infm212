@@ -167,8 +167,8 @@ a:active {
     text-align: center;
     color: white;
     border: 5px solid #5c8b64;
-    background: rgba(63, 107, 65, 0.8);
-    opacity: 0.5;
+    background: #5c8b64;
+    
     font-family: 'Times New Roman', Times, serif;
     width: 150px;
     height: 50px;
@@ -462,4 +462,53 @@ a:active {
     
     width: 100%;
     height: fit-content;
+}
+
+.accountSuccesful {
+    text-align: left;
+    border-width: 1px;
+    color: #418049;
+    border-style: outset;
+    border-color: #45754d;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    
+    width: 100%;
+    height: fit-content;
+}
+
+.clubAddClear {
+    border-width: 1px;
+    border-style: outset;
+    border-color: #45754d;
+    background-color: #9cc5a3;
+    font-size: 25px;
+    color: #45754d;
+    height: 80px;
+    width: 350px;
+}
+
+.wishlistButton {
+    text-align: center;
+    border-width: 1px;
+    border-style: outset;
+    border-color: #45754d;
+    background-color: #3f7a49;
+    font-size: 25px;
+    color: white;
+    height: 40px;
+    width: 200px;
+}
+
+.wishlistHeader {
+    padding-top: 30px;
+    margin-bottom: 25px;
+    font-size: 22px;
+    border-width: 3px;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    background-color: #bde6c3;
 }
